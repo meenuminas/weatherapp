@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.a1{
+    height: 750px;
+    /* background: linear-gradient(135deg,#00feba,#5b548a);
+    color: #fff; */
+    background-color: black;
+    color: white;
+    position: relative;
+
+    /* border: solid rgb(163, 79, 79) 2px; */
+}
+.a2{
+    
+    border-radius: 14px;
+    border: 0;
+   
+    
+}
+.a3{
+    border-radius: 41px;
+    border: 0;
+    padding: 9px 6px;
+    
+}
+
+.weather__card {
+    display: flex;
+    align-items: center;
+    background: #1e1e1e;
+    padding: 1rem;
+    border-radius: 10px;
+    
+}
+
+.weather__card i {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.weather__card p {
+    font-size: 14px;
+}
+.tt{
+    /* border: solid red; */
+    height: 170px;
+
+}
+@media(max-width: 537px){
+    .a3{
+        margin-top: 40px;
+    }
+}
+/* @media(max-width:500px ){
+    .a1{
+        width:700px;
+    }
+} */
+.pp{
+    color: rgb(176, 176, 180);
+    font-style: italic;
+}
+input {
+    padding: 10px; /* Adjust padding if needed */
+    overflow: visible; /* Or adjust overflow property */
+  }
+  @media(max-width: 768px){
+    .a3{
+        margin-top: 10px;
+    }
+}
